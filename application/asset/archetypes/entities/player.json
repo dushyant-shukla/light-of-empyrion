@@ -1,0 +1,62 @@
+{
+  "archetype": "player",
+  "components": [
+    {
+      "component": "ownership"
+    },
+    {
+      "component": "transform",
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "component": "sprite",
+      "texture": "",
+      "scale": 0.25,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "component": "miniMapSprite",
+      "texture": "GreenLayer",
+      "scale": 0.1,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "component": "animation",
+      "animation": {
+        "name": [
+          "PlayerAnimation_Idle",
+          "PlayerAnimation_Moving",
+          "PlayerAnimation_Attack",
+          "PlayerAnimation_Cyclone_Attack"
+        ],
+        "states": [
+          "Idle",
+          "Move",
+          "Attack",
+          "CycloneAttack"
+        ],
+        "current-state": "Idle"
+      }
+    },
+    {
+      "component": "body",
+      "shape": {
+        "type": "AABB",
+        "scale": 0.25,
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "component": "hit-point",
+	  "value":100
+    },
+    {
+      "component": "skill"
+    }
+  ]
+}

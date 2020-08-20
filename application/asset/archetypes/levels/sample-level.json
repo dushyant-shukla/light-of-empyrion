@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "archetype": "player",
+      "file": "./asset/archetypes/entities/player.json",
+      "components": [
+      ]
+    }
+  ],
+  "data":
+  {
+  	"level_start":0,
+	"level_max":3,
+	"coins": 1000,
+	"coins_per_mob" : 2,
+	"Level_0":{
+	"wave_start": 1,
+	"wave_max":2,
+	"time_per_wave": 10
+	},
+	"Level_1":{
+	"wave_start": 1,
+	"wave_max":4,
+	"time_per_wave": 15
+	},
+	"Level_2":{
+	"wave_start": 1,
+	"wave_max":4,
+	"time_per_wave": 20
+	},
+	"Level_3":{
+	"wave_start": 1,
+	"wave_max":4,
+	"time_per_wave": 25
+	},
+  }
+}

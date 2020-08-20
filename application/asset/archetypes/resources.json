@@ -1,0 +1,567 @@
+{
+  "resources": [
+    {
+      "type": "textures",
+      "textures": [
+        {
+          "name": "DigiPen-logo",
+          "path": "./asset/Logo/digipen-logo.png"
+        },
+        {
+          "name": "Game-Logo",
+          "path": "./asset/Logo/game-logo3.png"
+        },
+        {
+          "name": "Team-Logo",
+          "path": "./asset/Logo/team-logo3_new.png"
+        },
+        {
+          "name": "credits",
+          "path": "./asset/Logo/credits_comp.png"
+        },
+        {
+          "name": "You_Won",
+          "path": "./asset/UI/You_Won.png"
+        },
+        {
+          "name": "You_Died",
+          "path": "./asset/UI/You_Died.png"
+        },
+        {
+          "name": "You_Lost",
+          "path": "./asset/UI/You_Lost.png"
+        },
+        {
+          "name": "Level_1",
+          "path": "./asset/UI/Level_1.png"
+        },
+        {
+          "name": "Level_2",
+          "path": "./asset/UI/Level_2.png"
+        },
+        {
+          "name": "Level_3",
+          "path": "./asset/UI/Level_Final.png"
+        },
+        {
+          "name": "Wave_Clear",
+          "path": "./asset/UI/Wave_Clear.png"
+        },
+        {
+          "name": "Final_Wave",
+          "path": "./asset/UI/Final_Wave.png"
+        },
+        {
+          "name": "Level_Clear",
+          "path": "./asset/UI/Level_Clear.png"
+        },
+        {
+          "name": "Press_Space",
+          "path": "./asset/UI/press_space_2.png"
+        },
+        {
+          "name": "Portal_0",
+          "path": "./asset/Sprites/Portal_0.png"
+        },
+        {
+          "name": "Player_Idle",
+          "path": "./asset/Sprites/Player_Idle.png"
+        },
+        {
+          "name": "Player_Cyclone",
+          "path": "./asset/Sprites/PlayerTwoHanded_Cyclone.png"
+        },
+        {
+          "name": "Razor",
+          "path": "./asset/Sprites/Razor.png"
+        },
+        {
+          "name": "Cyclone_SFX",
+          "path": "./asset/Sprites/Cyclone.png"
+        },
+        {
+          "name": "PlayerTwoHanded_Attack",
+          "path": "./asset/Sprites/PlayerTwoHanded_Attack.png"
+        },
+        {
+          "name": "Mob1_Unarmed_Moving",
+          "path": "./asset/Sprites/Mob1_Unarmed_Moving.png"
+        },
+        {
+          "name": "Mob1_Unarmed_Attack",
+          "path": "./asset/Sprites/Mob1_Unarmed_Attack.png"
+        },
+        {
+          "name": "Mob2_Unarmed_Attack",
+          "path": "./asset/Sprites/Mob2_Unarmed_Attack.png"
+        },
+        {
+          "name": "Mob_Boss1_Moving",
+          "path": "./asset/Sprites/Mob_Boss1_Moving.png"
+        },
+        {
+          "name": "Mob_Boss1_Attack",
+          "path": "./asset/Sprites/Mob_Boss1_Attack.png"
+        },
+		{
+          "name": "Mob_Boss2_Moving",
+          "path": "./asset/Sprites/Mob_Boss2_Moving.png"
+        },
+        {
+          "name": "Mob_Boss2_Attack",
+          "path": "./asset/Sprites/Mob_Boss2_Attack.png"
+        },
+		{
+          "name": "Energy_shield",
+          "path": "./asset/Sprites/Energy_shield.png"
+        },
+        {
+          "name": "YellowLayer",
+          "path": "./asset/Sprites/YellowLayer.png"
+        },
+        {
+          "name": "RedLayer",
+          "path": "./asset/Sprites/RedLayer.png"
+        },
+        {
+          "name": "BlueLayer",
+          "path": "./asset/Sprites/BlueLayer.png"
+        },
+        {
+          "name": "GreenLayer",
+          "path": "./asset/Sprites/GreenLayer.png"
+        },
+        {
+          "name": "BaseIdle",
+          "path": "./asset/Sprites/Base_Idle.png"
+        },
+        {
+          "name": "BaseAnimation",
+          "path": "./asset/Sprites/Base_Animation.png"
+        },
+        {
+          "name": "TowerHammer_On",
+          "path": "./asset/Sprites/TowerHammer_On.png"
+        },
+        {
+          "name": "TowerHammer_Off",
+          "path": "./asset/Sprites/TowerHammer_Off.png"
+        },
+        {
+          "name": "TowerFire",
+          "path": "./asset/Sprites/TowerFire.png"
+        },
+        {
+          "name": "TowerIce",
+          "path": "./asset/Sprites/TowerIce.png"
+        },
+        {
+          "name": "TowerLightning",
+          "path": "./asset/Sprites/TowerLightning.png"
+        },
+        {
+          "name": "Fireball",
+          "path": "./asset/Sprites/Fireball.png"
+        },
+        {
+          "name": "Iceball",
+          "path": "./asset/Sprites/Iceball.png"
+        },
+        {
+          "name": "Lightningbolt_strike",
+          "path": "./asset/Sprites/Lightningbolt_strike.png"
+        },
+        {
+          "name": "Lightningbolt_channel",
+          "path": "./asset/Sprites/Lightningbolt_channel.png"
+        },
+        {
+          "name": "coin_SFX",
+          "path": "./asset/Sprites/coin.png"
+        },
+        {
+          "name": "htp_1",
+          "path": "./asset/UI/htp_1.png"
+        },
+        {
+          "name": "htp_2",
+          "path": "./asset/UI/htp_2.png"
+        },
+        {
+          "name": "htp_3",
+          "path": "./asset/UI/htp_3.png"
+        }
+      ]
+    },
+    {
+      "type": "animation",
+      "animations": [
+        {
+          "name": "PortalAnimation_0",
+          "properties": {
+            "texture-name": "Portal_0",
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128,
+            "delay": 1.0,
+            "frame-count": 10.0
+          }
+        },
+        {
+          "name": "BaseIdle",
+          "properties": {
+            "texture-name": "BaseIdle",
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128,
+            "delay": 1.0,
+            "frame-count": 10.0
+          }
+        },
+        {
+          "name": "BaseAnimation",
+          "properties": {
+            "texture-name": "BaseAnimation",
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128,
+            "delay": 1.0,
+            "frame-count": 10.0
+          }
+        },
+        {
+          "name": "PlayerAnimation_Idle",
+          "properties": {
+            "texture-name": "Player_Idle",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Animation_Razor_Attack",
+          "properties": {
+            "texture-name": "Razor",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 9.0
+          }
+        },
+        {
+          "name": "PlayerAnimation_Cyclone_Attack",
+          "properties": {
+            "texture-name": "Player_Cyclone",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 9.0
+          }
+        },
+        {
+          "name": "PlayerAnimation_Moving",
+          "properties": {
+            "texture-name": "Player_Idle",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "PlayerAnimation_Attack",
+          "properties": {
+            "texture-name": "PlayerTwoHanded_Attack",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Cyclone_Attack_SFX",
+          "properties": {
+            "texture-name": "Cyclone_SFX",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 9.0
+          }
+        },
+        {
+          "name": "Mob1Animation_Moving",
+          "properties": {
+            "texture-name": "Mob1_Unarmed_Moving",
+            "x": 140,
+            "y": 0,
+            "width": 140,
+            "height": 100,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Mob1Animation_Attack",
+          "properties": {
+            "texture-name": "Mob1_Unarmed_Attack",
+            "x": 140,
+            "y": 0,
+            "width": 140,
+            "height": 100,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Mob2Animation_Moving",
+          "properties": {
+            "texture-name": "Mob2_Unarmed_Attack",
+            "x": 140,
+            "y": 0,
+            "width": 140,
+            "height": 100,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Mob2Animation_Attack",
+          "properties": {
+            "texture-name": "Mob2_Unarmed_Attack",
+            "x": 140,
+            "y": 0,
+            "width": 140,
+            "height": 100,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Mob_Boss1Animation_Moving",
+          "properties": {
+            "texture-name": "Mob_Boss1_Moving",
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Mob_Boss1Animation_Attack",
+          "properties": {
+            "texture-name": "Mob_Boss1_Attack",
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+		{
+          "name": "Mob_Boss2Animation_Moving",
+          "properties": {
+            "texture-name": "Mob_Boss2_Moving",
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "Mob_Boss2Animation_Attack",
+          "properties": {
+            "texture-name": "Mob_Boss2_Attack",
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+		{
+          "name": "Energy_shieldAnimation",
+          "properties": {
+            "texture-name": "Energy_shield",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "fireBallAnim1",
+          "properties": {
+            "texture-name": "Fireball",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "boltAnim1",
+          "properties": {
+            "texture-name": "Lightningbolt_strike",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 30.0
+          }
+        },
+        {
+          "name": "boltAnim2",
+          "properties": {
+            "texture-name": "Lightningbolt_channel",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 30.0
+          }
+        },
+        {
+          "name": "iceBallAnim1",
+          "properties": {
+            "texture-name": "Iceball",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        },
+        {
+          "name": "coinAnimation",
+          "properties": {
+            "texture-name": "coin_SFX",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64,
+            "delay": 1.0,
+            "frame-count": 15.0
+          }
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "sounds": [
+		{
+          "path": "./asset/Audio_Assets/BGM_Tracks/Track_1.ogg",
+          "loop": true
+        },
+        {
+          "path": "./asset/Audio_Assets/BGM_Tracks/Track_2.ogg",
+          "loop": true
+        },
+		{
+          "path": "./asset/Audio_Assets/BGM_Tracks/Menu_Track.ogg",
+          "loop": true
+        },
+		{
+          "path": "./asset/Audio_Assets/Victory.mp3",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Defeat.mp3",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/footstep02.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/footsteps1.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Weapons_Sounds/fireball_shoot_lr1.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Hit_Sounds/fireball_hit1.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Weapons_Sounds/fireball_shoot_rl.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Weapons_Sounds/ice_shoot1.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Hit_Sounds/ice_hit1.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Weapons_Sounds/lightning_shoot.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/Weapons_Sounds/fire_crackle.ogg",
+          "loop": false
+        },
+		{
+          "path": "./asset/Audio_Assets/Weapons_Sounds/razor_shoot2.ogg",
+          "loop": false
+        },
+		{
+          "path": "./asset/Audio_Assets/Weapons_Sounds/cyclone_shoot.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/HUD_Sounds/bind_sound.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/HUD_Sounds/click_sound.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/HUD_Sounds/purchase_install_sound.ogg",
+          "loop": false
+        },
+		{
+          "path": "./asset/Audio_Assets/Hit_Sounds/razor_hit.ogg",
+          "loop": false
+        },
+        {
+          "path": "./asset/Audio_Assets/HUD_Sounds/purchase_sound.ogg",
+          "loop": false
+        },
+      ]
+    }
+  ]
+}
