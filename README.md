@@ -6,6 +6,8 @@ Light of Empyrion is a 2D tower-defense game developed for GAM-541 coursework at
 > *We are inspired by the Path Of Exile blight league to make an ARPG game with both engaging player skills and tower defenses elements. You play as an oath keeper of Empyrion that holds the front line from attacks launched by Abyss monsters. Time is ticking and monsters are flooding. You are to kill monsters and earn coins as fast as possible to get the finest skills and upgrades, and build tower wisely to gain an upper hand on the battlefield.*
 > *Go! Our oath keeper! For Empyrion!*
 
+Catch the gameplay on YouTube at https://youtu.be/u656akVYJ9Y
+
 ### Contributors
 | Developer   | Role |
 | ----------- | ----------- |
